@@ -3,110 +3,119 @@
       {
          "id":1,
          "full_name":"Sam Smith",
-         "email":"sam.smith@example.com",
+         "email":"sam.smith@example.com"
       },
       {
-		 "id":2,
+         "id":2,
          "full_name":"George Michel",
-         "email":"sam.smith@example.com",
+         "email":"sam.smith@example.com"
       },
       {
-		"id":3,
+         "id":3,
          "full_name":"Roa Doe",
-         "email":"sam.smith@example.com",
+         "email":"sam.smith@example.com"
       }
    ],
    "user_details":[
-		{
-		"user_id":1,
-		"gender":"male",
-		"primary_sport":"running",
-		"age":33
-		},
-		{
-		"user_id":2,
-		"gender":"male",
-		"primary_sport":"tennis",
-		"age":33
-		},
-		{
-		"user_id":3,
-		"gender":"female",
-		"primary_sport":"biking",
-		"age":33
-		}
+      {
+         "user_id":1,
+         "gender":"male",
+         "primary_sport":"running",
+         "age":33
+      },
+      {
+         "user_id":2,
+         "gender":"male",
+         "primary_sport":"tennis",
+         "age":33
+      },
+      {
+         "user_id":3,
+         "gender":"female",
+         "primary_sport":"biking",
+         "age":33
+      }
    ],
-   
-  "clubs":[
+   "clubs":[
       {
          "id":100,
          "title":"Running club",
-		 "location":{
-			"lat":47.64,
-			"long":26,26
-		 },
-		 "date":1597930486000,
-         "img":"https://i.pinimg.com/originals/9c/56/5b/9c565b5031b48eb96b549e9cb4817b45.png",
+         "location":{
+            "lat":47.64,
+            "long":26.26
+         },
+         "date":1597930486000,
+         "img":"https://i.pinimg.com/originals/9c/56/5b/9c565b5031b48eb96b549e9cb4817b45.png"
       },
       {
          "id":200,
          "title":"Tennis Club",
-		  "location":{
-			"lat":47.64,
-			"long":26,26
-		 },
-		 "date":1601040886000,
-         "img":"https://i.pinimg.com/originals/9c/56/5b/9c565b5031b48eb96b549e9cb4817b45.png",
+         "location":{
+            "lat":47.64,
+            "long":26.26
+         },
+         "date":1601040886000,
+         "img":"https://i.pinimg.com/originals/9c/56/5b/9c565b5031b48eb96b549e9cb4817b45.png"
       },
       {
          "id":300,
          "title":"Biking club",
-		  "location":{
-			"lat":47.64,
-			"long":26,26
-		 },
-		 "date":1598362486000,
-         "img":"https://i.pinimg.com/originals/9c/56/5b/9c565b5031b48eb96b549e9cb4817b45.png",
+         "location":{
+            "lat":47.64,
+            "long":26.26
+         },
+         "date":1598362486000,
+         "img":"https://i.pinimg.com/originals/9c/56/5b/9c565b5031b48eb96b549e9cb4817b45.png"
       }
    ],
-	"clubs_details":[
-		{
-		"club_id":100,
-		"description":"Est amet incididunt proident proident ipsum incididunt non sint cillum amet ullamco proident ut. Consectetur irure quis adipisicing occaecat eiusmod esse nostrud mollit et. Excepteur anim aliquip consequat sint ad ut enim mollit. Amet esse adipisicing aute reprehenderit labore enim exercitation.",
-		"participants_ids":[1,3]
-		},
-		{
-		"club_id":200,
-		"description":"Dolor laboris irure exercitation elit. Labore labore pariatur deserunt Lorem veniam Lorem incididunt labore sint. Ut laboris ex in nostrud irure fugiat duis nisi non deserunt et. Labore sunt culpa cupidatat non irure duis ipsum nulla dolor in ipsum sint aliqua. Labore ipsum",
-		"participants_ids":[1,2,3]
-		},
-		{
-		"club_id":300,
-		"description":"Laborum ut consectetur esse aliquip anim consectetur dolore mollit anim quis consequat anim proident.",
-		"participants_ids":[1,2]
-		}
-	],
+   "clubs_details":[
+      {
+         "club_id":100,
+         "description":"Est amet incididunt proident proident ipsum incididunt non sint cillum amet ullamco proident ut. Consectetur irure quis adipisicing occaecat eiusmod esse nostrud mollit et. Excepteur anim aliquip consequat sint ad ut enim mollit. Amet esse adipisicing aute reprehenderit labore enim exercitation.",
+         "participants_ids":[
+            1,
+            3
+         ]
+      },
+      {
+         "club_id":200,
+         "description":"Dolor laboris irure exercitation elit. Labore labore pariatur deserunt Lorem veniam Lorem incididunt labore sint. Ut laboris ex in nostrud irure fugiat duis nisi non deserunt et. Labore sunt culpa cupidatat non irure duis ipsum nulla dolor in ipsum sint aliqua. Labore ipsum",
+         "participants_ids":[
+            1,
+            2,
+            3
+         ]
+      },
+      {
+         "club_id":300,
+         "description":"Laborum ut consectetur esse aliquip anim consectetur dolore mollit anim quis consequat anim proident.",
+         "participants_ids":[
+            1,
+            2
+         ]
+      }
+   ],
    "events":[
-     {
+      {
          "id":1,
          "title":"Running club",
-		 "location":"Suceava",
-		 "date":1597930486000,
-         "img":"https://i.pinimg.com/originals/9c/56/5b/9c565b5031b48eb96b549e9cb4817b45.png",
+         "location":"Suceava",
+         "date":1597930486000,
+         "img":"https://i.pinimg.com/originals/9c/56/5b/9c565b5031b48eb96b549e9cb4817b45.png"
       },
       {
          "id":3,
          "title":"Tennis Club",
-		  "location":"Suceava",
-		 "date":1601040886000,
-         "img":"https://i.pinimg.com/originals/9c/56/5b/9c565b5031b48eb96b549e9cb4817b45.png",
+         "location":"Suceava",
+         "date":1601040886000,
+         "img":"https://i.pinimg.com/originals/9c/56/5b/9c565b5031b48eb96b549e9cb4817b45.png"
       },
       {
          "id":2,
          "title":"Biking club",
-		  "location":"Suceava",
-		 "date":1598362486000,
-         "img":"https://i.pinimg.com/originals/9c/56/5b/9c565b5031b48eb96b549e9cb4817b45.png",
+         "location":"Suceava",
+         "date":1598362486000,
+         "img":"https://i.pinimg.com/originals/9c/56/5b/9c565b5031b48eb96b549e9cb4817b45.png"
       }
    ]
 }
