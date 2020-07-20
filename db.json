@@ -1,102 +1,112 @@
 {
-   "user":[
+   "users":[
       {
          "id":1,
-         "first_name":"start",
-         "last_name":"Robertson",
-         "email":"ken.wright@example.com",
-		 "role":"coach",
-         "club":"Biking Club, Running Club.. +20"
+         "full_name":"Sam Smith",
+         "email":"sam.smith@example.com",
       },
       {
-         "id":2,
-         "first_name":"Jorge ",
-         "last_name":"Edwards",
-		 "role":"coach",
-         "email":"penny.nichols@example.com",
-		 "role":"coach",
-         "club":"Biking Club, Running Club.. +20"
+		 "id":2,
+         "full_name":"George Michel",
+         "email":"sam.smith@example.com",
       },
       {
-         "id":3,
-         "first_name":"Judith ",
-         "last_name":"Steward",
-         "email":"scott.gilbert@example.com",
-         "club":"Biking Club, Running Club.. +20"
+		"id":3,
+         "full_name":"Roa Doe",
+         "email":"sam.smith@example.com",
       }
    ],
-   "comments":[
+   "user_details":[
+		{
+		"user_id":1,
+		"gender":"male",
+		"primary_sport":"running",
+		"age":33
+		},
+		{
+		"user_id":2,
+		"gender":"male",
+		"primary_sport":"tennis",
+		"age":33
+		},
+		{
+		"user_id":3,
+		"gender":"female",
+		"primary_sport":"biking",
+		"age":33
+		}
+   ],
+   
+  "clubs":[
       {
-         "id":1,
-         "body":"some comment",
-         "postId":1
+         "id":100,
+         "title":"Running club",
+		 "location":{
+			"lat":47.64,
+			"long":26,26
+		 },
+		 "date":1597930486000,
+         "img":"https://i.pinimg.com/originals/9c/56/5b/9c565b5031b48eb96b549e9cb4817b45.png",
+      },
+      {
+         "id":200,
+         "title":"Tennis Club",
+		  "location":{
+			"lat":47.64,
+			"long":26,26
+		 },
+		 "date":1601040886000,
+         "img":"https://i.pinimg.com/originals/9c/56/5b/9c565b5031b48eb96b549e9cb4817b45.png",
+      },
+      {
+         "id":300,
+         "title":"Biking club",
+		  "location":{
+			"lat":47.64,
+			"long":26,26
+		 },
+		 "date":1598362486000,
+         "img":"https://i.pinimg.com/originals/9c/56/5b/9c565b5031b48eb96b549e9cb4817b45.png",
       }
    ],
-   "profile":{
-      "name":"typicode"
-   },
+	"clubs_details":[
+		{
+		"club_id":100,
+		"description":"Est amet incididunt proident proident ipsum incididunt non sint cillum amet ullamco proident ut. Consectetur irure quis adipisicing occaecat eiusmod esse nostrud mollit et. Excepteur anim aliquip consequat sint ad ut enim mollit. Amet esse adipisicing aute reprehenderit labore enim exercitation.",
+		"participants_ids":[1,3]
+		},
+		{
+		"club_id":200,
+		"description":"Dolor laboris irure exercitation elit. Labore labore pariatur deserunt Lorem veniam Lorem incididunt labore sint. Ut laboris ex in nostrud irure fugiat duis nisi non deserunt et. Labore sunt culpa cupidatat non irure duis ipsum nulla dolor in ipsum sint aliqua. Labore ipsum",
+		"participants_ids":[1,2,3]
+		},
+		{
+		"club_id":300,
+		"description":"Laborum ut consectetur esse aliquip anim consectetur dolore mollit anim quis consequat anim proident.",
+		"participants_ids":[1,2]
+		}
+	],
    "events":[
-      {
-         "club":1,
-         "img":"https://www.timeoutdoors.com/CMSFiles/33/338cd93c-a287-471c-bf8a-88a941e0c43c.jpg",
-         "title":"Running for Life",
-         "body":"Ad enim sit commodo laborum mollit. Incididunt Lorem exercitation ad occaecat reprehenderit id.",
-         "date":"20.08.2020",
-         "time":"09:00 AM",
-         "location":"Suceava Fortress, Main Enter",
-         "participants":"2"
-      },
-      {
-         "img":"",
-         "title":"Running for Life",
-         "body":"Ad enim sit commodo laborum mollit. Incididunt Lorem exercitation ad occaecat reprehenderit id.",
-         "date":"21.08.2020",
-         "time":"10:00 AM",
-         "location":"Suceava Fortress, Main Enter",
-         "participants":"3"
-      }
-   ],
-   "participants":[
-      {
-         "img":"https://www.gstatic.com/tv/thumb/persons/673351/673351_v9_ba.jpg",
-         "name":"Harold R",
-         "gender":"male",
-         "age":"34"
-      },
-      {
-         "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Shakira.JPG/220px-Shakira.JPG",
-         "name":"Regina Shakira",
-         "gender":"female",
-         "age":"38"
-      },
-      {
-         "img":"",
-         "name":"Brandon Wilson",
-         "gender":"male",
-         "age":"22"
-      }
-   ],
-   "clubs":[
-      {
+     {
          "id":1,
-         "title":"Biking club",
-         "img":"",
-         "members":"22",
-         "coach":1
+         "title":"Running club",
+		 "location":"Suceava",
+		 "date":1597930486000,
+         "img":"https://i.pinimg.com/originals/9c/56/5b/9c565b5031b48eb96b549e9cb4817b45.png",
       },
       {
          "id":3,
-         "title":"Biking Club",
-         "img":"",
-         "members":"22",
-         "coach":2
+         "title":"Tennis Club",
+		  "location":"Suceava",
+		 "date":1601040886000,
+         "img":"https://i.pinimg.com/originals/9c/56/5b/9c565b5031b48eb96b549e9cb4817b45.png",
       },
       {
          "id":2,
          "title":"Biking club",
-         "img":"",
-         "members":"22",
-         "coach":3
+		  "location":"Suceava",
+		 "date":1598362486000,
+         "img":"https://i.pinimg.com/originals/9c/56/5b/9c565b5031b48eb96b549e9cb4817b45.png",
       }
    ]
 }
