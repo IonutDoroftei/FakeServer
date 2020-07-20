@@ -1,18 +1,102 @@
 {
-  "coaches": [
-    {
-      "id": 1,
-      "first_name": "start",
-      "last_name": "Robertson",
-      "email": "ken.wright@example.com",
-      "club": "Biking Club, Running Club.. +20"
-    },
-    {
-      "first_name": "Raluca",
-      "last_name": "Hladiuc",
-      "email": "ralucasorina.hladiuc@gmail.com",
-      "club": "clubY",
-      "id": 5
-    }
-  ]
+   "user":[
+      {
+         "id":1,
+         "first_name":"start",
+         "last_name":"Robertson",
+         "email":"ken.wright@example.com",
+		 "role":"coach",
+         "club":"Biking Club, Running Club.. +20"
+      },
+      {
+         "id":2,
+         "first_name":"Jorge ",
+         "last_name":"Edwards",
+		 "role":"coach",
+         "email":"penny.nichols@example.com",
+		 "role":"coach",
+         "club":"Biking Club, Running Club.. +20"
+      },
+      {
+         "id":3,
+         "first_name":"Judith ",
+         "last_name":"Steward",
+         "email":"scott.gilbert@example.com",
+         "club":"Biking Club, Running Club.. +20"
+      }
+   ],
+   "comments":[
+      {
+         "id":1,
+         "body":"some comment",
+         "postId":1
+      }
+   ],
+   "profile":{
+      "name":"typicode"
+   },
+   "events":[
+      {
+         "club":1,
+         "img":"https://www.timeoutdoors.com/CMSFiles/33/338cd93c-a287-471c-bf8a-88a941e0c43c.jpg",
+         "title":"Running for Life",
+         "body":"Ad enim sit commodo laborum mollit. Incididunt Lorem exercitation ad occaecat reprehenderit id.",
+         "date":"20.08.2020",
+         "time":"09:00 AM",
+         "location":"Suceava Fortress, Main Enter",
+         "participants":"2"
+      },
+      {
+         "img":"",
+         "title":"Running for Life",
+         "body":"Ad enim sit commodo laborum mollit. Incididunt Lorem exercitation ad occaecat reprehenderit id.",
+         "date":"21.08.2020",
+         "time":"10:00 AM",
+         "location":"Suceava Fortress, Main Enter",
+         "participants":"3"
+      }
+   ],
+   "participants":[
+      {
+         "img":"https://www.gstatic.com/tv/thumb/persons/673351/673351_v9_ba.jpg",
+         "name":"Harold R",
+         "gender":"male",
+         "age":"34"
+      },
+      {
+         "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Shakira.JPG/220px-Shakira.JPG",
+         "name":"Regina Shakira",
+         "gender":"female",
+         "age":"38"
+      },
+      {
+         "img":"",
+         "name":"Brandon Wilson",
+         "gender":"male",
+         "age":"22"
+      }
+   ],
+   "clubs":[
+      {
+         "id":1,
+         "title":"Biking club",
+         "img":"",
+         "members":"22",
+         "coach":1
+      },
+      {
+         "id":3,
+         "title":"Biking Club",
+         "img":"",
+         "members":"22",
+         "coach":2
+      },
+      {
+         "id":2,
+         "title":"Biking club",
+         "img":"",
+         "members":"22",
+         "coach":3
+      }
+   ]
 }
