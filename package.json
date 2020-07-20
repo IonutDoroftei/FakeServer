@@ -1,0 +1,17 @@
+{
+  "name": "internshipserver",
+  "version": "1.0.0",
+  "description": "Fake json Rest API",
+  "main": "index.js",
+  "dependencies": {
+    "-": "^0.0.1",
+    "g": "^2.0.1",
+    "json-server": "^0.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "json:server":"json-server --watch db.json"
+  },
+  "author": "IonutD",
+  "license": "ISC"
+}
