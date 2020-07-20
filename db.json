@@ -10,16 +10,30 @@
       {
          "id":2,
          "full_name":"George Michel",
-         "email":"sam.smith@example.com",
+         "email":"georgeM@example.com",
          "role":"coach",
          "age":23
       },
       {
          "id":3,
-         "full_name":"Roa Doe",
-         "email":"sam.smith@example.com",
-         "role":"Athlete",
+         "full_name":"Rona Doe",
+         "email":"sonaDoe@example.com",
+         "role":"athlete",
          "age":21
+      },
+	   {
+         "id":4,
+         "full_name":"Sophia Isabella Amelia Santos",
+         "email":"sophia@example.com",
+         "role":"athlete",
+         "age":24
+      },
+	   {
+         "id":5,
+         "full_name":"Vicent Van Gogh",
+         "email":"vicent.gogh@example.com",
+         "role":"athlete",
+         "age":26
       }
    ],
    "user_details":[
@@ -27,22 +41,36 @@
          "user_id":1,
          "gender":"male",
          "primary_sport":"running",
-         "avatar":"",
+         "avatar":"https://www.gstatic.com/tv/thumb/persons/983712/983712_v9_ba.jpg",
          "height":1.85
       },
       {
          "user_id":2,
          "gender":"male",
          "primary_sport":"tennis",
-         "avatar":"",
+         "avatar":"https://www.gstatic.com/tv/thumb/persons/566644/566644_v9_bb.jpg",
          "height":1.80
       },
       {
          "user_id":3,
          "gender":"female",
          "primary_sport":"biking",
-         "avatar":"",
+         "avatar":"https://www.gstatic.com/tv/thumb/persons/68580/68580_v9_bb.jpg",
          "height":1.70
+      },
+	   {
+         "user_id":4,
+         "gender":"female",
+         "primary_sport":"tennis",
+         "avatar":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Shakira.JPG/220px-Shakira.JPG",
+         "height":1.78
+      },
+	  {
+         "user_id":5,
+         "gender":"male",
+         "primary_sport":"running",
+         "avatar":"https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/29-self-portrait-vincent-van-gogh.jpg",
+         "height":1.84
       }
    ],
    "clubs":[
@@ -64,7 +92,7 @@
             "long":26.26
          },
          "date":1601040886000,
-         "img":"https://i.pinimg.com/originals/9c/56/5b/9c565b5031b48eb96b549e9cb4817b45.png"
+         "img":"https://photoresources.wtatennis.com/photo-resources/2019/08/15/dbb59626-9254-4426-915e-57397b6d6635/tennis-origins-e1444901660593.jpg?width=1200&height=630"
       },
       {
          "id":300,
@@ -74,38 +102,44 @@
             "long":26.26
          },
          "date":1598362486000,
-         "img":"https://i.pinimg.com/originals/9c/56/5b/9c565b5031b48eb96b549e9cb4817b45.png"
+         "img":"https://static.posters.cz/image/1300/fotografiiartistice/golden-hour-biking-i85208.jpg"
       }
    ],
    "clubs_details":[
       {
          "club_id":100,
          "owner_id":1,
-         "description":"Est amet incididunt proident proident ipsum incididunt non sint cillum amet ullamco proident ut. Consectetur irure quis adipisicing occaecat eiusmod esse nostrud mollit et. Excepteur anim aliquip consequat sint ad ut enim mollit. Amet esse adipisicing aute reprehenderit labore enim exercitation.",
          "members_ids":[
             1,
-            3
+            5,
+			3
+         ],
+         "events_list":[
+            1000
          ],
          "creation_date":1595241286000
       },
       {
          "club_id":200,
          "owner_id":2,
-         "description":"Dolor laboris irure exercitation elit. Labore labore pariatur deserunt Lorem veniam Lorem incididunt labore sint. Ut laboris ex in nostrud irure fugiat duis nisi non deserunt et. Labore sunt culpa cupidatat non irure duis ipsum nulla dolor in ipsum sint aliqua. Labore ipsum",
-         "participants_ids":[
+         "members_ids":[
             2,
-            3
+			4
+         ],
+         "events_list":[
+            2000
          ],
          "creation_date":1595241286000
       },
       {
          "owner_id":1,
          "club_id":300,
-         "description":"Laborum ut consectetur esse aliquip anim consectetur dolore mollit anim quis consequat anim proident.",
-         "participants_ids":[
+         "members_ids":[
             1,
-            2,
             3
+         ],
+         "events_list":[
+            3000
          ],
          "creation_date":1594809286000
       }
@@ -113,24 +147,36 @@
    "events":[
       {
          "id":1000,
-         "title":"Running club",
-         "location":"Suceava",
-         "date":1597930486000,
-         "img":"https://i.pinimg.com/originals/9c/56/5b/9c565b5031b48eb96b549e9cb4817b45.png"
+         "details":{
+            "title":"Running club",
+            "location":"Suceava",
+            "date":1597930486000,
+            "img":"https://i2.wp.com/www.runsociety.com/wp-content/uploads/2019/11/Promoting-a-running-event-thumb.jpg?fit=1600%2C900&ssl=1"
+         },
+         "description":"Est amet incididunt proident proident ipsum incididunt non sint cillum amet ullamco proident ut. Consectetur irure quis adipisicing occaecat eiusmod esse nostrud mollit et. Excepteur anim aliquip consequat sint ad ut enim mollit. Amet esse adipisicing aute reprehenderit labore enim exercitation.",
+         "participants_ids":[3,5]
       },
       {
          "id":2000,
-         "title":"Tennis Club",
-         "location":"Suceava",
-         "date":1601040886000,
-         "img":"https://i.pinimg.com/originals/9c/56/5b/9c565b5031b48eb96b549e9cb4817b45.png"
+         "details":{
+            "title":"Tennis Club",
+            "location":"Suceava",
+            "date":1601040886000,
+            "img":"https://static01.nyt.com/images/2020/07/11/sports/09virus-tennis-print/merlin_173685714_95d9c418-0f7e-4ad8-94e5-399394c7fe0f-articleLarge.jpg?quality=75&auto=webp&disable=upscale"
+         },
+         "description":"Laborum ut consectetur esse aliquip anim consectetur dolore mollit anim quis consequat anim proident.",
+         "participants_ids":[3,4]
       },
       {
          "id":3000,
-         "title":"Biking club",
-         "location":"Suceava",
-         "date":1598362486000,
-         "img":"https://i.pinimg.com/originals/9c/56/5b/9c565b5031b48eb96b549e9cb4817b45.png"
+         "details":{
+            "title":"Biking club",
+            "location":"Suceava",
+            "date":1598362486000,
+            "img":"https://q-cf.bstatic.com/data/xphoto/1182x887/228/22858269.jpg?size=S"
+         },
+         "description":"Laborum ut consectetur esse aliquip anim consectetur dolore mollit anim quis consequat anim proident.",
+         "participants_ids":[3,4,5]
       }
    ]
-   }
+}
