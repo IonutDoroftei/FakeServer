@@ -97,10 +97,6 @@
       {
          "id":300,
          "title":"Biking club",
-         "location":{
-            "lat":47.64,
-            "long":26.26
-         },
          "date":1598362486000,
          "img":"https://static.posters.cz/image/1300/fotografiiartistice/golden-hour-biking-i85208.jpg"
       }
@@ -149,7 +145,10 @@
          "id":1000,
          "details":{
             "title":"Running club",
-            "location":"Suceava",
+ "location":{
+            "lat":47.64,
+            "long":26.26
+         },
             "date":1597930486000,
             "img":"https://i2.wp.com/www.runsociety.com/wp-content/uploads/2019/11/Promoting-a-running-event-thumb.jpg?fit=1600%2C900&ssl=1"
          },
@@ -160,7 +159,10 @@
          "id":2000,
          "details":{
             "title":"Tennis Club",
-            "location":"Suceava",
+             "location":{
+            "lat":47.64,
+            "long":26.26
+         },
             "date":1601040886000,
             "img":"https://static01.nyt.com/images/2020/07/11/sports/09virus-tennis-print/merlin_173685714_95d9c418-0f7e-4ad8-94e5-399394c7fe0f-articleLarge.jpg?quality=75&auto=webp&disable=upscale"
          },
@@ -171,7 +173,10 @@
          "id":3000,
          "details":{
             "title":"Biking club",
-            "location":"Suceava",
+             "location":{
+            "lat":47.64,
+            "long":26.26
+         },
             "date":1598362486000,
             "img":"https://q-cf.bstatic.com/data/xphoto/1182x887/228/22858269.jpg?size=S"
          },
