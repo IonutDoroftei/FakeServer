@@ -2,38 +2,23 @@
    "types":[
       {
          "id":1,
-         "full_name":"Sam Smith",
-         "email":"sam.smith@example.com",
-         "role":"coach",
-         "age":30
+         "type":"School",
+         "icon":""
       },
-      {
+	{
          "id":2,
-         "full_name":"George Michel",
-         "email":"georgeM@example.com",
-         "role":"coach",
-         "age":23
+         "type":"Work",
+         "icon":""
       },
-      {
+	{
          "id":3,
-         "full_name":"Rona Doe",
-         "email":"sonaDoe@example.com",
-         "role":"athlete",
-         "age":21
+         "type":"Sport",
+         "icon":""
       },
-	   {
+     {
          "id":4,
-         "full_name":"Sophia Isabella Amelia Santos",
-         "email":"sophia@example.com",
-         "role":"athlete",
-         "age":24
-      },
-	   {
-         "id":5,
-         "full_name":"Vicent Van Gogh",
-         "email":"vicent.gogh@example.com",
-         "role":"athlete",
-         "age":26
+         "type":"Home",
+         "icon":""
       }
    ]
 }
