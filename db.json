@@ -1,6 +1,6 @@
 {
     "MAJOR_US": [
-        "static": {
+        "static": [
             "1/1": "New Year's Day",
             "2/2": "Groundhog Day",
             "2/14": "Valentine's Day",
@@ -13,8 +13,8 @@
             "12/7": "Pearl Harbor Day",
             "12/25": "Christmas Day",
             "12/31": "New Year's Eve"
-	},
-        "dynamic": {
+	],
+        "dynamic": [
             "1/19/2015": "MLK Day",
             "1/18/2016": "MLK Day",
             "1/16/2017": "MLK Day",
@@ -63,7 +63,7 @@
             "11/22/2018": "Thanksgiving Day",
             "11/28/2019": "Thanksgiving Day",
             "11/26/2020": "Thanksgiving Day"
-		}
+		]
     ],
    "types":[
       {
