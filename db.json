@@ -1,19 +1,20 @@
 {
     "MAJOR_US": {
-        "static": {
-            "1/1": "New Year's Day",
-            "2/2": "Groundhog Day",
-            "2/14": "Valentine's Day",
-            "3/17": "St. Patrick's Day",
-            "4/22": "Earth Day",
-            "7/4": "Independence Day",
-            "9/11": "Patriot Day",
-            "10/31": "Halloween",
-            "11/11": "Veterans' Day",
-            "12/7": "Pearl Harbor Day",
-            "12/25": "Christmas Day",
-            "12/31": "New Year's Eve"
-        },
+        "static": [
+		{"dateString": "1/1",
+		"dateTitle" :"New Year's Day"},
+	    {"dateString":"2/2": "dateTitle" :"Groundhog Day"},
+           { "dateString":"2/14": "dateTitle" :"Valentine's Day"},
+           { "dateString":"3/17": "dateTitle" :"St. Patrick's Day"},
+           { "dateString":"4/22": "dateTitle" :"Earth Day"},
+           { "dateString":"7/4": "dateTitle" :"Independence Day"},
+           { "dateString":"9/11": "dateTitle" :"Patriot Day"},
+           { "dateString":"10/31": "dateTitle" :"Halloween"},
+          { "dateString":"11/11": "dateTitle" :"Veterans' Day"},
+          { "dateString":"12/7": "dateTitle" :"Pearl Harbor Day"},
+           { "dateString":"12/25": "dateTitle" :"Christmas Day"},
+           { "dateString":"12/31": "dateTitle" :"New Year's Eve"}
+        ],
         "dynamic": {
             "1/19/2015": "MLK Day",
             "1/18/2016": "MLK Day",
